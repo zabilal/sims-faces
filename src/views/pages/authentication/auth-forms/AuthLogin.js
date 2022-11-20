@@ -8,11 +8,11 @@ import {
     Box,
     Button,
     Checkbox,
-    Divider,
+    // Divider,
     FormControl,
     FormControlLabel,
     FormHelperText,
-    Grid,
+    // Grid,
     IconButton,
     InputAdornment,
     InputLabel,
@@ -36,25 +36,26 @@ import AnimateButton from 'ui-component/extended/AnimateButton';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
 
-import Google from 'assets/images/icons/social-google.svg';
+// import Google from 'assets/images/icons/social-google.svg';
 
 // ============================|| FIREBASE - LOGIN ||============================ //
 
 const FirebaseLogin = ({ loginProp, ...others }) => {
     const theme = useTheme();
     const scriptedRef = useScriptRef();
-    const matchDownSM = useMediaQuery(theme.breakpoints.down('md'));
-    const { borderRadius } = useConfig();
+    // const matchDownSM = useMediaQuery(theme.breakpoints.down('md'));
+    // const { borderRadius } = useConfig();
     const [checked, setChecked] = React.useState(true);
 
-    const { firebaseEmailPasswordSignIn, firebaseGoogleSignIn } = useAuth();
-    const googleHandler = async () => {
-        try {
-            await firebaseGoogleSignIn();
-        } catch (err) {
-            console.error(err);
-        }
-    };
+    // const { firebaseEmailPasswordSignIn, firebaseGoogleSignIn } = useAuth();
+    const { firebaseEmailPasswordSignIn } = useAuth();
+    // const googleHandler = async () => {
+    //     try {
+    //         await firebaseGoogleSignIn();
+    //     } catch (err) {
+    //         console.error(err);
+    //     }
+    // };
 
     const [showPassword, setShowPassword] = React.useState(false);
     const handleClickShowPassword = () => {

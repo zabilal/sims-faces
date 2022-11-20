@@ -4,10 +4,10 @@ import { useRoutes } from 'react-router-dom';
 // routes
 import MainRoutes from './MainRoutes';
 import LoginRoutes from './LoginRoutes';
-import AuthenticationRoutes from './AuthenticationRoutes';
-import Loadable from 'ui-component/Loadable';
+// import AuthenticationRoutes from './AuthenticationRoutes';
+// import Loadable from 'ui-component/Loadable';
 
-const PagesLanding = Loadable(lazy(() => import('views/pages/landing')));
+// const PagesLanding = Loadable(lazy(() => import('views/pages/landing')));
 
 // ==============================|| ROUTING RENDER ||============================== //
 

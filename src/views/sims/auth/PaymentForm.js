@@ -1,5 +1,6 @@
 // material-ui
-import { Checkbox, FormControlLabel, Grid, TextField, Typography } from '@mui/material';
+// import { Checkbox, FormControlLabel, Grid, TextField, Typography } from '@mui/material';
+import { Grid, TextField, Typography } from '@mui/material';
 
 // ==============================|| FORM WIZARD - BASIC  ||============================== //
 

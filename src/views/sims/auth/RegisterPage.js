@@ -11,7 +11,7 @@ import Logo from 'ui-component/Logo';
 import AuthRegister from './AuthRegister';
 import AuthFooter from 'ui-component/cards/AuthFooter';
 import useAuth from 'hooks/useAuth';
-import { fontFamily, textAlign } from '@mui/system';
+// import { fontFamily, textAlign } from '@mui/system';
 
 // assets
 // ===============================|| AUTH3 - REGISTER ||=============================== //
