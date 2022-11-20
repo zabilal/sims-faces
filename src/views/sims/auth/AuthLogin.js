@@ -18,8 +18,8 @@ import {
     InputLabel,
     OutlinedInput,
     Stack,
-    Typography,
-    useMediaQuery
+    Typography
+    // useMediaQuery
 } from '@mui/material';
 
 // third party
@@ -27,7 +27,7 @@ import * as Yup from 'yup';
 import { Formik } from 'formik';
 
 // project imports
-import useConfig from 'hooks/useConfig';
+// import useConfig from 'hooks/useConfig';
 import useAuth from 'hooks/useAuth';
 import useScriptRef from 'hooks/useScriptRef';
 import AnimateButton from 'ui-component/extended/AnimateButton';
