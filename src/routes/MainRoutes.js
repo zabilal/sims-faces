@@ -6,7 +6,7 @@ import Loadable from 'ui-component/Loadable';
 import AuthGuard from 'utils/route-guard/AuthGuard';
 
 // dashboard routing
-const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
+const DashboardDefault = Loadable(lazy(() => import('views/sims/dashboard')));
 const DashboardAnalytics = Loadable(lazy(() => import('views/dashboard/Analytics')));
 
 // widget routing

@@ -10214,7 +10214,7 @@ react-number-format@^4.9.3:
   dependencies:
     prop-types "^15.7.2"
 
-react-organizational-chart@^2.1.1:
+react-organizational-chart@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/react-organizational-chart/-/react-organizational-chart-2.2.0.tgz#ca856b126a09ee54467d3bd63ae86e980370b711"
   integrity sha512-4FKowSanEsG/zZuHiEyvGvZQY8MQInlHTG972c0Q/SmJOh9GFz7SPYpLpf/yVsaAvbgEa+QQqNiNi9CSHg7+QA==

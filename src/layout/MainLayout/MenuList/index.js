@@ -5,7 +5,8 @@ import { useTheme } from '@mui/material/styles';
 import { Typography, useMediaQuery } from '@mui/material';
 
 // project imports
-import menuItem from 'menu-items';
+// import menuItem from 'menu-items';
+import menuItem from '../../../views/sims/dashboard/menu-items';
 import NavGroup from './NavGroup';
 import LAYOUT_CONST from 'constant';
 import { HORIZONTAL_MAX_ITEM } from 'config';

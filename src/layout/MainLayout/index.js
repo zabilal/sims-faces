@@ -11,7 +11,7 @@ import Customization from '../Customization';
 import Header from './Header';
 import HorizontalBar from './HorizontalBar';
 import Sidebar from './Sidebar';
-import navigation from 'menu-items';
+import navigation from '../../views/sims/dashboard/menu-items';
 import LAYOUT_CONST from 'constant';
 import useConfig from 'hooks/useConfig';
 import { drawerWidth } from 'store/constant';
